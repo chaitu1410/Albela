@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 51px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input__container {
+  width: 97%;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 21px;
+  position: sticky;
+  top: 59px;
+  z-index: 4;
+  padding-bottom: 21px;
+  margin-bottom: 21px;
+  border-bottom: 1px solid rgb(244, 244, 244);
+  background: white;
+  display: flex;
+}
+
+.inputs {
+  width: 100%;
+  padding: 15px;
+  padding-left: 21px;
+  padding-right: 11px;
+  outline: none;
+  border: 1px solid lightgray;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  font-size: 14px;
+}
+
+.addIcon {
+  border-radius: 0px !important;
+  border-top-right-radius: 7px !important;
+  border-bottom-right-radius: 7px !important;
+  background: #cd9042 !important;
+}

@@ -1,0 +1,14 @@
+.order {
+  min-height: 100vh;
+  background: whitesmoke;
+}
+
+.product__row {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  padding-bottom: 51px;
+  padding-left: 4px;
+  padding-right: 4px;
+}

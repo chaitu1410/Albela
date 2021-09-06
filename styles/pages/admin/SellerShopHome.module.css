@@ -1,0 +1,12 @@
+.sellerShop {
+  background: whitesmoke;
+  min-height: 100vh;
+}
+
+.shops {
+  background: whitesmoke;
+  height: 100%;
+  padding: 21px;
+  display: flex;
+  flex-direction: column;
+}

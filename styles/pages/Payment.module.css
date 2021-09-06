@@ -1,0 +1,86 @@
+.payment {
+  width: 100%;
+  height: 100%;
+  /* padding-right: 7px; */
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 21px;
+  min-height: calc(100vh - 60px);
+}
+
+.form {
+  margin-top: 51px;
+  margin-bottom: 51px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-left: 1%; */
+  max-width: 800px;
+  width: 98%;
+  border: 1px solid lightgray;
+  padding: 33px;
+  border-radius: 11px;
+  background: white;
+  height: fit-content;
+}
+
+.inputs {
+  width: 100%;
+  padding: 11px;
+  padding-left: 21px;
+  padding-right: 11px;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  font-size: 14px;
+  margin: 2px;
+  max-height: 51vh;
+}
+
+.multiContainer {
+  display: flex;
+  margin: 2px;
+}
+
+.multiContainer > input {
+  flex: 1;
+  margin: 0;
+  margin-right: 2px;
+}
+
+.multiContainer > button {
+  padding: 4;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: #f0c148;
+  border: 1px solid;
+  color: #111;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+
+.orderButton {
+  margin-top: 21px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: #f0c148;
+  border: 1px solid;
+  color: #111;
+  border-color: #a88734 #9c7e31 #846a29;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 550px) {
+  .form {
+    padding: 17px;
+  }
+}

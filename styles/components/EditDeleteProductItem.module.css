@@ -1,0 +1,39 @@
+.editDeleteProductItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 7px;
+  border: 1px solid lightgray;
+  padding-left: 11px;
+  margin-bottom: 4px;
+  transition: 444ms;
+}
+
+.name {
+  flex: 1;
+  margin: 0;
+}
+
+.editIcon {
+  text-decoration: none;
+  color: gray;
+  transition: 444ms !important;
+}
+
+.deleteIcon {
+  color: tomato;
+  transition: 444ms !important;
+}
+
+@media (min-width: 550px) {
+  .editIcon:hover {
+    color: black;
+  }
+  .deleteIcon:hover {
+    color: red;
+  }
+  .editDeleteProductItem:hover {
+    box-shadow: 0px 2px 7px;
+  }
+}

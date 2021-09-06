@@ -1,0 +1,130 @@
+.home {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+  width: 100vw;
+}
+.home__container {
+  width: 100vw;
+}
+
+.carousel {
+  height: 50vh;
+}
+
+/* 
+.carousel_image {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+  background: white;
+  height: 50vh;
+} */
+
+.carousel_image {
+  width: 100%;
+  object-fit: cover;
+}
+
+.productShowcase {
+  background: white;
+  margin-top: 11px;
+  border-radius: 4px;
+  padding-bottom: 7px;
+  border: 1px solid lightgray;
+}
+.productShowcase > h3 {
+  padding-left: 11px;
+  padding-top: 21px;
+  margin-bottom: 21px;
+  font-weight: 400;
+  color: #555555;
+  font-size: 16.7 !important;
+}
+.product__row {
+  margin-top: 7px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  z-index: 1;
+  padding-right: 2px;
+  padding-left: 2px;
+  background: white;
+  margin-bottom: 11px;
+}
+.seeMore {
+  text-decoration: none;
+  padding-left: 11px;
+  color: #0a58ca;
+  font-size: 14px;
+  padding-bottom: 11px !important;
+}
+
+.home__image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -201px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+.carousel_image {
+  width: 100%;
+  object-fit: contain;
+}
+@media (min-width: 550px) {
+  .productShowcase {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .carousel {
+    height: 24vh;
+  }
+  .carousel_image {
+    width: 100%;
+    /* height: 24vh; */
+  }
+}
+@media only screen and (max-width: 800px) {
+  .home__image {
+    margin-bottom: -121px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .home__image {
+    margin-bottom: -51px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .home__image {
+    margin-bottom: -41px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .home__image {
+    margin-bottom: -31px;
+  }
+  .carousel_image {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .home__image {
+    margin-bottom: -21px;
+  }
+}
+@media only screen and (max-width: 333px) {
+  .home__image {
+    margin-bottom: -11px;
+  }
+}
+@media only screen and (max-width: 285px) {
+  .home__image {
+    margin-bottom: 0px;
+  }
+}

@@ -1,0 +1,24 @@
+.product__row {
+  margin-top: 7px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  z-index: 1;
+  padding-bottom: 51px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.heading {
+  margin-top: 11px;
+  margin-bottom: 11px;
+  padding-left: 11px;
+  margin-left: 11px;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 550px) {
+  .heading {
+    margin-left: 2px;
+  }
+}

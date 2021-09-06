@@ -1,0 +1,18 @@
+.top {
+  width: 100%;
+  background: #131921;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 51px;
+  z-index: 50;
+}
+
+.top > p {
+  margin: 0;
+  display: inline-block;
+}

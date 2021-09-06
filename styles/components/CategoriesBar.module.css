@@ -1,0 +1,15 @@
+.categoriesBar {
+  height: 100px;
+  background: white;
+  border-bottom: 1px solid lightgray;
+  padding: 4px;
+  padding-right: 11px;
+  display: flex;
+  align-items: center;
+  max-width: 100vw;
+  overflow-x: scroll;
+}
+
+.categoriesBar::-webkit-scrollbar {
+  display: none;
+}

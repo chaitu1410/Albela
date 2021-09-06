@@ -1,0 +1,30 @@
+.shopCard {
+  align-self: center;
+  width: 100%;
+  max-width: 800px;
+  background: white;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+  padding: 7px;
+  cursor: pointer;
+  transition: 444ms;
+  text-decoration: none;
+  color: #444444;
+}
+
+.shopCard > p {
+  margin: 0;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+@media only screen and (min-width: 751px) {
+  .shopCard:hover {
+    box-shadow: 0px 2px 11px gray;
+    color: black;
+  }
+}

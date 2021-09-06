@@ -1,0 +1,125 @@
+.checkoutProduct {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+
+.checkoutProduct > a {
+  height: 171px;
+  background-color: white;
+  z-index: 1;
+  padding: 4px;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+}
+
+.image {
+  width: 200px;
+}
+
+.image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 11px !important;
+  object-fit: contain;
+}
+
+.checkoutProduct__info {
+  padding-left: 20px;
+  /* margin-top: 11px; */
+  flex: 1;
+}
+
+.checkoutProduct__price {
+  margin-top: 2px;
+  margin-bottom: 0;
+  font-size: x-large;
+  font-weight: 500;
+  color: #b12704;
+}
+.checkoutProduct__price > strong {
+  font-weight: 400;
+}
+
+.checkoutProduct__rating {
+  display: flex;
+}
+
+.checkoutProduct__title {
+  font-weight: 600;
+  margin-bottom: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.remove_button {
+  background: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  padding-right: 7px;
+  padding-left: 7px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  height: fit-content;
+  align-self: center;
+}
+
+.buttons {
+  display: flex;
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-bottom: 11px;
+}
+
+.off {
+  font-size: small;
+  color: gray;
+}
+
+@media only screen and (max-width: 550px) {
+  .image {
+    width: 121px;
+  }
+  .checkoutProduct > a {
+    height: 124px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .checkoutProduct__image {
+    margin: auto;
+  }
+  /* .buttons {
+    flex-direction: column;
+  } */
+  .remove_button {
+    align-self: unset;
+  }
+  .counter__mobile {
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .image {
+    width: 100%;
+    height: 151px;
+  }
+  .checkoutProduct > a {
+    flex-direction: column;
+    height: fit-content;
+  }
+  .counter__mobile {
+    justify-content: flex-start;
+  }
+}

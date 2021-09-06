@@ -1,0 +1,128 @@
+.recharge {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.body {
+  height: calc(100vh - 70px);
+  height: 100%;
+  display: grid;
+  place-items: center;
+  margin-top: 21px;
+  padding-bottom: 21px;
+}
+
+.recharge_plan_cards {
+  background-color: whitesmoke;
+  width: 90%;
+  border-radius: 7px;
+  padding: 7px;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.recharge_card {
+  height: 151px;
+  width: 151px;
+  background: white;
+  border-radius: 7px;
+  border: 1px solid lightgray;
+  margin: 2px;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.recharge_card > input {
+  cursor: pointer;
+}
+
+.card_label {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.product__price {
+  text-align: right;
+  margin-top: 2px;
+  margin-bottom: 0;
+  font-size: x-large;
+  font-weight: 500;
+  color: #b12704;
+  margin-right: 7px;
+}
+.product__price strong {
+  font-weight: 400;
+}
+
+.validity {
+  margin-right: 7px;
+  text-align: right;
+  margin-bottom: 0;
+  color: #444;
+  font-size: large;
+}
+
+.rechargeButton {
+  outline: none;
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: #f0c148;
+  border: 1px solid;
+  color: #111;
+  border-color: #a88734 #9c7e31 #846a29;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 11px;
+}
+
+.note {
+  width: 100%;
+  text-align: center;
+  color: gray;
+  margin-top: 11px;
+}
+
+@media only screen and (max-width: 1130px) {
+  /* .recharge_card {
+    height: 20vh;
+    width: 20vh;
+  } */
+  .validity {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  /* .recharge_card {
+    height: 17vh;
+    width: 17vh;
+  } */
+}
+@media only screen and (max-width: 721px) {
+  /* .recharge_card {
+    height: 20vh;
+    width: 20vh;
+  } */
+}
+@media only screen and (max-width: 575px) {
+  /* .recharge_card {
+    height: 17vh;
+    width: 17vh;
+  } */
+}
+@media only screen and (max-width: 333px) {
+  /* .recharge_card {
+    height: 90vw;
+    width: 90vw;
+  } */
+}

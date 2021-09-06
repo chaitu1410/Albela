@@ -1,0 +1,73 @@
+.profile {
+  width: 100%;
+  min-width: 100vw;
+  height: 85vh;
+  padding-right: 7px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  margin: auto;
+  padding: 4px;
+  max-width: 450px;
+  width: 90%;
+  border-radius: 3px;
+  border: 1px solid rgb(230, 230, 230);
+  padding: 21px;
+}
+
+.inputs {
+  width: 100%;
+  padding: 11px;
+  padding-left: 21px;
+  padding-right: 11px;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  font-size: 14px;
+  margin: 2px;
+}
+
+.multiContainer {
+  display: flex;
+  margin: 2px;
+}
+
+.multiContainer > input {
+  flex: 1;
+  margin: 0;
+  margin-right: 2px;
+}
+
+.multiContainer > button {
+  padding: 4;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 14px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: #f0c148;
+  border: 1px solid;
+  color: #111;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+
+.profileButton {
+  margin-top: 21px;
+  outline: none;
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: #f0c148;
+  border: 1px solid;
+  color: #111;
+  border-color: #a88734 #9c7e31 #846a29;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  justify-content: center;
+  align-items: center;
+}

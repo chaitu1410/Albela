@@ -1,0 +1,42 @@
+.categoryCard {
+  align-self: center;
+  width: 95%;
+  max-width: 800px;
+  background: white;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+  padding: 7px;
+  cursor: pointer;
+  transition: 444ms;
+  text-decoration: none;
+  color: #444444;
+}
+
+.categoryName {
+  margin: 0;
+  margin-left: 4px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.inputs {
+  width: 100%;
+  padding: 11px;
+  padding-left: 21px;
+  padding-right: 11px;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 751px) {
+  .categoryCard:hover {
+    box-shadow: 0px 2px 11px gray;
+    color: black;
+  }
+}

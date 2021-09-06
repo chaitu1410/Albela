@@ -1,0 +1,22 @@
+.index {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
+  padding: 21px;
+  background: #131921;
+}
+
+.inputs {
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+  padding: 11px;
+  padding-left: 21px;
+  padding-right: 11px;
+  outline: none;
+  border: 2.1px solid #cd9042;
+  border-radius: 7px;
+  font-size: 14px;
+  margin: 2px;
+}
